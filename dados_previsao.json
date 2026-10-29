@@ -1,0 +1,202 @@
+{
+  "resumo": {
+    "data_base": "12/08/2026",
+    "horizonte_fim": "09/09/2026",
+    "planilha_centavos": 59571000,
+    "esperado_centavos": 59550386,
+    "otimista_centavos": 65845921,
+    "pessimista_centavos": 35152765,
+    "diferenca_centavos": 20614,
+    "diferenca_pct": 0.0,
+    "qtd_titulos_abertos": 40,
+    "qtd_titulos_no_horizonte": 22
+  },
+  "semanas": [
+    {
+      "indice": 1,
+      "inicio": "12/08",
+      "fim": "19/08",
+      "planilha_centavos": 17402000,
+      "esperado_centavos": 18150989,
+      "diferenca_centavos": -748989
+    },
+    {
+      "indice": 2,
+      "inicio": "20/08",
+      "fim": "26/08",
+      "planilha_centavos": 18682000,
+      "esperado_centavos": 10939603,
+      "diferenca_centavos": 7742397
+    },
+    {
+      "indice": 3,
+      "inicio": "27/08",
+      "fim": "02/09",
+      "planilha_centavos": 20852000,
+      "esperado_centavos": 14673890,
+      "diferenca_centavos": 6178110
+    },
+    {
+      "indice": 4,
+      "inicio": "03/09",
+      "fim": "09/09",
+      "planilha_centavos": 2635000,
+      "esperado_centavos": 15785904,
+      "diferenca_centavos": -13150904
+    }
+  ],
+  "semana_maior_diferenca": 4,
+  "cumulativo": {
+    "planilha": [
+      0,
+      17402000,
+      36084000,
+      56936000,
+      59571000
+    ],
+    "esperado": [
+      0,
+      18150989,
+      29090592,
+      43764483,
+      59550386
+    ],
+    "otimista": [
+      0,
+      31744142,
+      48128262,
+      63110618,
+      65845921
+    ],
+    "pessimista": [
+      0,
+      7487071,
+      17088353,
+      22737397,
+      35152765
+    ]
+  },
+  "clientes": [
+    {
+      "codigo": 3,
+      "nome": "Supermercado Vila Nova",
+      "naive_centavos": 4223000,
+      "esperado_centavos": 7289749,
+      "diferenca_centavos": -3066749,
+      "indice_risco": 46,
+      "usando_recente": true,
+      "media_atraso": 7.7,
+      "media_recente": 26.4
+    },
+    {
+      "codigo": 2,
+      "nome": "Rede Bom Preço Supermercados",
+      "naive_centavos": 13036000,
+      "esperado_centavos": 10605723,
+      "diferenca_centavos": 2430277,
+      "indice_risco": 23,
+      "usando_recente": false,
+      "media_atraso": 6.4,
+      "media_recente": 6.7
+    },
+    {
+      "codigo": 4,
+      "nome": "Adega Serra Azul",
+      "naive_centavos": 1287000,
+      "esperado_centavos": 3170026,
+      "diferenca_centavos": -1883026,
+      "indice_risco": 22,
+      "usando_recente": false,
+      "media_atraso": 18.4,
+      "media_recente": 18.7
+    },
+    {
+      "codigo": 7,
+      "nome": "Congelados Polo Norte",
+      "naive_centavos": 6187000,
+      "esperado_centavos": 4768445,
+      "diferenca_centavos": 1418555,
+      "indice_risco": 30,
+      "usando_recente": false,
+      "media_atraso": 7.8,
+      "media_recente": 8.6
+    },
+    {
+      "codigo": 6,
+      "nome": "Empório Frescor Hortifrúti",
+      "naive_centavos": 3273000,
+      "esperado_centavos": 2377233,
+      "diferenca_centavos": 895767,
+      "indice_risco": 26,
+      "usando_recente": false,
+      "media_atraso": 10.6,
+      "media_recente": 12.4
+    },
+    {
+      "codigo": 9,
+      "nome": "Supermercado Estrela do Vale",
+      "naive_centavos": 5844000,
+      "esperado_centavos": 4991257,
+      "diferenca_centavos": 852743,
+      "indice_risco": 18,
+      "usando_recente": false,
+      "media_atraso": 4.3,
+      "media_recente": 5.6
+    },
+    {
+      "codigo": 11,
+      "nome": "Casa de Carnes Bom Corte",
+      "naive_centavos": 2489000,
+      "esperado_centavos": 2978744,
+      "diferenca_centavos": -489744,
+      "indice_risco": 28,
+      "usando_recente": false,
+      "media_atraso": 14.0,
+      "media_recente": 6.3
+    },
+    {
+      "codigo": 1,
+      "nome": "Atacado São Jorge Ltda",
+      "naive_centavos": 19244000,
+      "esperado_centavos": 19698628,
+      "diferenca_centavos": -454628,
+      "indice_risco": 20,
+      "usando_recente": false,
+      "media_atraso": 2.7,
+      "media_recente": 1.4
+    },
+    {
+      "codigo": 8,
+      "nome": "Farmácia São Rafael",
+      "naive_centavos": 2771000,
+      "esperado_centavos": 2381243,
+      "diferenca_centavos": 389757,
+      "indice_risco": 19,
+      "usando_recente": false,
+      "media_atraso": 3.2,
+      "media_recente": 4.1
+    },
+    {
+      "codigo": 5,
+      "nome": "Mercearia Dona Zica",
+      "naive_centavos": 0,
+      "esperado_centavos": 374282,
+      "diferenca_centavos": -374282,
+      "indice_risco": 42,
+      "usando_recente": false,
+      "media_atraso": 9.0,
+      "media_recente": null
+    },
+    {
+      "codigo": 12,
+      "nome": "Adega e Empório Boa Vista",
+      "naive_centavos": 1217000,
+      "esperado_centavos": 915055,
+      "diferenca_centavos": 301945,
+      "indice_risco": 58,
+      "usando_recente": false,
+      "media_atraso": 34.5,
+      "media_recente": 44.0
+    }
+  ]
+}

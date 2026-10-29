@@ -1,0 +1,44 @@
+{
+  "3": {
+    "nome": "Supermercado Vila Nova",
+    "posicao": 1,
+    "tom_sugerido": "conversa_nao_ameaca",
+    "tom_label": "Conversa, não ameaça"
+  },
+  "1": {
+    "nome": "Atacado São Jorge Ltda",
+    "posicao": 2,
+    "tom_sugerido": "alerta_cuidadoso_grande",
+    "tom_label": "Alerta cuidadoso (cliente grande)"
+  },
+  "11": {
+    "nome": "Casa de Carnes Bom Corte",
+    "posicao": 3,
+    "tom_sugerido": "atraso_inedito",
+    "tom_label": "Atraso inédito"
+  },
+  "6": {
+    "nome": "Empório Frescor Hortifrúti",
+    "posicao": 4,
+    "tom_sugerido": "cobranca_padrao",
+    "tom_label": "Cobrança padrão"
+  },
+  "4": {
+    "nome": "Adega Serra Azul",
+    "posicao": 5,
+    "tom_sugerido": "lembrete_leve_prazo",
+    "tom_label": "Lembrete leve + ajuste de prazo"
+  },
+  "5": {
+    "nome": "Mercearia Dona Zica",
+    "posicao": 6,
+    "tom_sugerido": "comercial_antes_financeiro",
+    "tom_label": "Comercial, antes do financeiro"
+  },
+  "12": {
+    "nome": "Adega e Empório Boa Vista",
+    "posicao": 7,
+    "tom_sugerido": "atraso_inedito",
+    "tom_label": "Atraso inédito"
+  }
+}

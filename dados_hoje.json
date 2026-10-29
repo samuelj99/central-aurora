@@ -1,0 +1,355 @@
+{
+  "resumo": {
+    "data_base": "12/08/2026",
+    "total_clientes_base": 12,
+    "total_titulos_base": 754,
+    "clientes_na_fila": 7,
+    "total_vencido_centavos": 30268000,
+    "qtd_titulos_vencidos": 16,
+    "total_a_vencer_centavos": 67922000,
+    "qtd_titulos_a_vencer": 24,
+    "faixas_atraso": [
+      {
+        "rotulo": "1 a 7 dias",
+        "valor_centavos": 7657000,
+        "qtd": 3
+      },
+      {
+        "rotulo": "8 a 30 dias",
+        "valor_centavos": 12814000,
+        "qtd": 8
+      },
+      {
+        "rotulo": "31 a 60 dias",
+        "valor_centavos": 8141000,
+        "qtd": 2
+      },
+      {
+        "rotulo": "mais de 60 dias",
+        "valor_centavos": 1656000,
+        "qtd": 3
+      }
+    ]
+  },
+  "fila": [
+    {
+      "codigo": 3,
+      "nome": "Supermercado Vila Nova",
+      "categoria": "Mercearia",
+      "regiao": "Interior de São Paulo",
+      "contato_nome": "Otávio Bezerra",
+      "valor_vencido_centavos": 12678000,
+      "qtd_vencidos": 5,
+      "dias_vencido_max": 30,
+      "tier": "acima_normal",
+      "media_atraso_hist": 7.7,
+      "max_atraso_hist": 32,
+      "n_titulos_pagos_hist": 70,
+      "mudou_comportamento": true,
+      "media_antiga": 6.3,
+      "media_recente": 26.4,
+      "contato_recente_48h": false,
+      "dias_desde_contato": null,
+      "canal_ultimo_contato": null,
+      "tom_ultimo_contato": null,
+      "score": 20284800.0,
+      "frase": "Tem R$ 126.780 vencidos em 5 títulos, o mais antigo já com 30 dias de atraso. Já está acima do que ele costuma fazer (média de 8 dias), mas não é inédito — o atraso mais longo dele já chegou a 32 dias. Além disso, o atraso médio dele vinha subindo nos títulos mais recentes: de 6 para 26 dias — um sinal de mudança de comportamento.",
+      "titulos": [
+        {
+          "numero": "AUR-2026-00234",
+          "valor_centavos": 2797000,
+          "vencimento": "13/07/2026",
+          "dias_vencido": 30
+        },
+        {
+          "numero": "AUR-2026-00235",
+          "valor_centavos": 2708000,
+          "vencimento": "20/07/2026",
+          "dias_vencido": 23
+        },
+        {
+          "numero": "AUR-2026-00236",
+          "valor_centavos": 2616000,
+          "vencimento": "03/08/2026",
+          "dias_vencido": 9
+        },
+        {
+          "numero": "AUR-2026-00237",
+          "valor_centavos": 2144000,
+          "vencimento": "10/08/2026",
+          "dias_vencido": 2
+        },
+        {
+          "numero": "AUR-2026-00238",
+          "valor_centavos": 2413000,
+          "vencimento": "11/08/2026",
+          "dias_vencido": 1
+        }
+      ],
+      "posicao": 1,
+      "pct_do_vencido": 42,
+      "severidade": "critico",
+      "motivo": [
+        "30 dias de atraso, acima da média dele (8); já chegou a 32 dias.",
+        "Piorou: pagava em 6 dias e agora leva 26."
+      ]
+    },
+    {
+      "codigo": 1,
+      "nome": "Atacado São Jorge Ltda",
+      "categoria": "Mercearia",
+      "regiao": "Grande São Paulo",
+      "contato_nome": "Sérgio Matarazzo",
+      "valor_vencido_centavos": 6013000,
+      "qtd_vencidos": 1,
+      "dias_vencido_max": 51,
+      "tier": "inedito",
+      "media_atraso_hist": 2.7,
+      "max_atraso_hist": 10,
+      "n_titulos_pagos_hist": 74,
+      "mudou_comportamento": false,
+      "media_antiga": 2.9,
+      "media_recente": 1.4,
+      "contato_recente_48h": false,
+      "dias_desde_contato": 13,
+      "canal_ultimo_contato": "Telefone",
+      "tom_ultimo_contato": "Primeiro aviso cordial",
+      "score": 9620800.0,
+      "frase": "Tem R$ 60.130 vencidos em 1 título, o mais antigo já com 51 dias de atraso. Esse atraso já é o maior que esse cliente já teve: o histórico dele nunca passou de 10 dias, com média de 3 dias. O último contato foi há 13 dias (Telefone), tempo suficiente para cobrar de novo sem parecer repetitivo.",
+      "titulos": [
+        {
+          "numero": "AUR-2026-00071",
+          "valor_centavos": 6013000,
+          "vencimento": "22/06/2026",
+          "dias_vencido": 51
+        }
+      ],
+      "posicao": 2,
+      "pct_do_vencido": 20,
+      "severidade": "critico",
+      "motivo": [
+        "51 dias de atraso: nunca passou de 10 dias (média de 3).",
+        "Último contato há 13 dias (Telefone)."
+      ]
+    },
+    {
+      "codigo": 11,
+      "nome": "Casa de Carnes Bom Corte",
+      "categoria": "Congelados",
+      "regiao": "Grande Curitiba",
+      "contato_nome": "Anderson Ruppel",
+      "valor_vencido_centavos": 2128000,
+      "qtd_vencidos": 1,
+      "dias_vencido_max": 44,
+      "tier": "inedito",
+      "media_atraso_hist": 14.0,
+      "max_atraso_hist": 30,
+      "n_titulos_pagos_hist": 51,
+      "mudou_comportamento": false,
+      "media_antiga": 15.0,
+      "media_recente": 6.3,
+      "contato_recente_48h": false,
+      "dias_desde_contato": 4,
+      "canal_ultimo_contato": "E-mail",
+      "tom_ultimo_contato": "Cobrança formal",
+      "score": 3404800.0,
+      "frase": "Tem R$ 21.280 vencidos em 1 título, o mais antigo já com 44 dias de atraso. Esse atraso já é o maior que esse cliente já teve: o histórico dele nunca passou de 30 dias, com média de 14 dias. O último contato foi há 4 dias (E-mail), tempo suficiente para cobrar de novo sem parecer repetitivo.",
+      "titulos": [
+        {
+          "numero": "AUR-2026-00693",
+          "valor_centavos": 2128000,
+          "vencimento": "29/06/2026",
+          "dias_vencido": 44
+        }
+      ],
+      "posicao": 3,
+      "pct_do_vencido": 7,
+      "severidade": "critico",
+      "motivo": [
+        "44 dias de atraso: nunca passou de 30 dias (média de 14).",
+        "Último contato há 4 dias (E-mail)."
+      ]
+    },
+    {
+      "codigo": 6,
+      "nome": "Empório Frescor Hortifrúti",
+      "categoria": "Hortifruti",
+      "regiao": "Grande Campinas",
+      "contato_nome": "Danilo Verissimo",
+      "valor_vencido_centavos": 3100000,
+      "qtd_vencidos": 1,
+      "dias_vencido_max": 2,
+      "tier": "dentro_padrao",
+      "media_atraso_hist": 10.6,
+      "max_atraso_hist": 21,
+      "n_titulos_pagos_hist": 25,
+      "mudou_comportamento": false,
+      "media_antiga": 9.4,
+      "media_recente": 12.4,
+      "contato_recente_48h": false,
+      "dias_desde_contato": null,
+      "canal_ultimo_contato": null,
+      "tom_ultimo_contato": null,
+      "score": 2635000.0,
+      "frase": "Tem R$ 31.000 vencidos em 1 título, o mais antigo já com 2 dias de atraso. Isso está dentro do padrão normal dele: historicamente paga em média 11 dias depois do vencimento, então não chega a ser um alerta novo.",
+      "titulos": [
+        {
+          "numero": "AUR-2026-00383",
+          "valor_centavos": 3100000,
+          "vencimento": "10/08/2026",
+          "dias_vencido": 2
+        }
+      ],
+      "posicao": 4,
+      "pct_do_vencido": 10,
+      "severidade": "ok",
+      "motivo": [
+        "2 dias de atraso, dentro do padrão dele (paga em torno de 11)."
+      ]
+    },
+    {
+      "codigo": 4,
+      "nome": "Adega Serra Azul",
+      "categoria": "Bebidas",
+      "regiao": "Zona Norte de São Paulo",
+      "contato_nome": "Wilson Tanaka",
+      "valor_vencido_centavos": 3080000,
+      "qtd_vencidos": 2,
+      "dias_vencido_max": 14,
+      "tier": "dentro_padrao",
+      "media_atraso_hist": 18.4,
+      "max_atraso_hist": 21,
+      "n_titulos_pagos_hist": 75,
+      "mudou_comportamento": false,
+      "media_antiga": 18.3,
+      "media_recente": 18.7,
+      "contato_recente_48h": false,
+      "dias_desde_contato": 9,
+      "canal_ultimo_contato": "WhatsApp",
+      "tom_ultimo_contato": "Lembrete leve (atraso é o padrão dele)",
+      "score": 2618000.0,
+      "frase": "Tem R$ 30.800 vencidos em 2 títulos, o mais antigo já com 14 dias de atraso. Isso está dentro do padrão normal dele: historicamente paga em média 18 dias depois do vencimento, então não chega a ser um alerta novo. O último contato foi há 9 dias (WhatsApp), tempo suficiente para cobrar de novo sem parecer repetitivo.",
+      "titulos": [
+        {
+          "numero": "AUR-2026-00316",
+          "valor_centavos": 1584000,
+          "vencimento": "29/07/2026",
+          "dias_vencido": 14
+        },
+        {
+          "numero": "AUR-2026-00317",
+          "valor_centavos": 1496000,
+          "vencimento": "30/07/2026",
+          "dias_vencido": 13
+        }
+      ],
+      "posicao": 5,
+      "pct_do_vencido": 10,
+      "severidade": "ok",
+      "motivo": [
+        "14 dias de atraso, dentro do padrão dele (paga em torno de 18).",
+        "Último contato há 9 dias (WhatsApp)."
+      ]
+    },
+    {
+      "codigo": 5,
+      "nome": "Mercearia Dona Zica",
+      "categoria": "Mercearia",
+      "regiao": "Vale do Paraíba",
+      "contato_nome": "Rosangela Prado",
+      "valor_vencido_centavos": 1217000,
+      "qtd_vencidos": 2,
+      "dias_vencido_max": 112,
+      "tier": "inedito",
+      "media_atraso_hist": 9.0,
+      "max_atraso_hist": 21,
+      "n_titulos_pagos_hist": 37,
+      "mudou_comportamento": false,
+      "media_antiga": null,
+      "media_recente": null,
+      "contato_recente_48h": false,
+      "dias_desde_contato": 6,
+      "canal_ultimo_contato": "Telefone",
+      "tom_ultimo_contato": "Reaproximação comercial",
+      "score": 1947200.0,
+      "frase": "Tem R$ 12.170 vencidos em 2 títulos, o mais antigo já com 112 dias de atraso. Esse atraso já é o maior que esse cliente já teve: o histórico dele nunca passou de 21 dias, com média de 9 dias. O último contato foi há 6 dias (Telefone), tempo suficiente para cobrar de novo sem parecer repetitivo.",
+      "titulos": [
+        {
+          "numero": "AUR-2026-00356",
+          "valor_centavos": 540000,
+          "vencimento": "22/04/2026",
+          "dias_vencido": 112
+        },
+        {
+          "numero": "AUR-2026-00357",
+          "valor_centavos": 677000,
+          "vencimento": "25/05/2026",
+          "dias_vencido": 79
+        }
+      ],
+      "posicao": 6,
+      "pct_do_vencido": 4,
+      "severidade": "critico",
+      "motivo": [
+        "112 dias de atraso: nunca passou de 21 dias (média de 9).",
+        "Último contato há 6 dias (Telefone)."
+      ]
+    },
+    {
+      "codigo": 12,
+      "nome": "Adega e Empório Boa Vista",
+      "categoria": "Bebidas",
+      "regiao": "Zona Leste de São Paulo",
+      "contato_nome": "Jonas Vilarinho",
+      "valor_vencido_centavos": 2052000,
+      "qtd_vencidos": 4,
+      "dias_vencido_max": 93,
+      "tier": "inedito",
+      "media_atraso_hist": 34.5,
+      "max_atraso_hist": 61,
+      "n_titulos_pagos_hist": 50,
+      "mudou_comportamento": false,
+      "media_antiga": 33.9,
+      "media_recente": 44.0,
+      "contato_recente_48h": true,
+      "dias_desde_contato": 2,
+      "canal_ultimo_contato": "WhatsApp",
+      "tom_ultimo_contato": "Cobrança objetiva",
+      "score": 1477440.0,
+      "frase": "Tem R$ 20.520 vencidos em 4 títulos, o mais antigo já com 93 dias de atraso. Esse atraso já é o maior que esse cliente já teve: o histórico dele nunca passou de 61 dias, com média de 35 dias. Foi cobrado há 2 dias (WhatsApp, tom: cobrança objetiva), por isso desceu posições na fila para não repetir contato tão em cima.",
+      "titulos": [
+        {
+          "numero": "AUR-2026-00746",
+          "valor_centavos": 439000,
+          "vencimento": "11/05/2026",
+          "dias_vencido": 93
+        },
+        {
+          "numero": "AUR-2026-00750",
+          "valor_centavos": 743000,
+          "vencimento": "13/07/2026",
+          "dias_vencido": 30
+        },
+        {
+          "numero": "AUR-2026-00751",
+          "valor_centavos": 400000,
+          "vencimento": "20/07/2026",
+          "dias_vencido": 23
+        },
+        {
+          "numero": "AUR-2026-00752",
+          "valor_centavos": 470000,
+          "vencimento": "31/07/2026",
+          "dias_vencido": 12
+        }
+      ],
+      "posicao": 7,
+      "pct_do_vencido": 7,
+      "severidade": "critico",
+      "motivo": [
+        "93 dias de atraso: nunca passou de 61 dias (média de 34).",
+        "Cobrado há 2 dias (WhatsApp): desceu na fila."
+      ]
+    }
+  ]
+}
